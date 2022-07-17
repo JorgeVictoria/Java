@@ -39,7 +39,7 @@ public class NivelBits {
 		//operador OR exclusivo, solo 1 y 0
 		System.out.println("OPERADOR OR exclusivo");
 		System.out.println("decimal = " + (numA^numB));
-		System.out.println("binario = " + Integer.toBinaryString(numA&numB));
+		System.out.println("binario = " + Integer.toBinaryString(numA^numB));
 		System.out.println();
 		
 		//operador OR exclusivo, incluye los 1 y 1
@@ -64,13 +64,23 @@ public class NivelBits {
 		System.out.println("binario = " + Integer.toBinaryString(numB<<2));
 		System.out.println();
 		
-		//desplazamiento hacia la derecha
-		System.out.println("Desplazamiento hacia la izda");
-		System.out.println("numA = " + (numA<<2));
-		System.out.println("binario = " + Integer.toBinaryString(numA<<2));
-		System.out.println("numB = " + (numB<<2));
-		System.out.println("binario = " + Integer.toBinaryString(numB<<2));
+		//desplazamiento hacia la derecha. Signed. Rellena huecos con bit mas significativo
+		System.out.println("Desplazamiento hacia la dcha signed");
+		System.out.println("numA = " + (numA>>2));
+		System.out.println("binario = " + Integer.toBinaryString(numA>>2));
+		System.out.println("numB = " + (numB>>2));
+		System.out.println("binario = " + Integer.toBinaryString(numB>>2));
 		System.out.println();
+		
+		//desplazamiento hacia la derecha. Unsigned. Rellena con ceros
+		System.out.println("Desplazamiento hacia la dcha unsigned");
+		System.out.println("numA = " + (numA>>>2));
+		System.out.println("binario = " + Integer.toBinaryString(numA>>>2));
+		System.out.println("numB = " + (numB>>>2));
+		System.out.println("binario = " + Integer.toBinaryString(numB>>>2));
+		System.out.println();
+
+		
 		
 		
 		
