@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="f78c2561-311f-47df-9b70-196c5ec77592" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/000-Ejercicios.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/out/production/000-Ejercicios/Ejercicio001/Saludo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/out/production/000-Ejercicios/Ejercicio002/Factura.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/out/production/000-Ejercicios/Ejercicio03/ProgramaManejoDeNombres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/src/Ejercicio001/Saludo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/src/Ejercicio002/Factura.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../000-Ejercicios/src/Ejercicio003/ProgramaManejoDeNombres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/001-HolaMundo.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/001-HolaMundo/HolaMundo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HolaMundo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/002-Variables.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/Booleanos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/Caracteres.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/CaracteresEespeciales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/Casting.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/IntroduccionPrimitivos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/NumericosEnteros.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/NumericosReales.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/ReglasVariables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/SistemasNumericos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/Terminal.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/Variables.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/out/production/002-Variables/VentanaDialogo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/Booleanos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/Caracteres.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/CaracteresEespeciales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/Casting.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/IntroduccionPrimitivos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/NumericosEnteros.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/NumericosReales.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/ReglasVariables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/SistemasNumericos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/Terminal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/Variables.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../002-Variables/src/VentanaDialogo.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/003-Strings.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/out/production/003-Strings/AnalisisConcatenar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/out/production/003-Strings/ArrayString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/out/production/003-Strings/Concatenacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/out/production/003-Strings/Inmutabilidad.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/out/production/003-Strings/Metodos.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/out/production/003-Strings/ObjetoString.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/out/production/003-Strings/ObtenerExtension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/out/production/003-Strings/Validacion.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/src/AnalisisConcatenar.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/src/ArrayString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/src/Concatenacion.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/src/Inmutabilidad.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/src/Metodos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/src/ObjetoString.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/src/ObtenerExtension.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../003-Strings/src/Validacion.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2CAYWusnkjCpXDrHjiqhMX3hb0Y" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f78c2561-311f-47df-9b70-196c5ec77592" name="Changes" comment="" />
+      <created>1658246891706</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1658246891706</updated>
+    </task>
+    <servers />
+  </component>
+</project>
