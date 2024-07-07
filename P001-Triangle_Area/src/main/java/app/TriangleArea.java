@@ -27,6 +27,7 @@ public class TriangleArea {
         triangle.setBase(getTriangleSideValue(BASE));
         triangle.setHeight(getTriangleSideValue(HEIGHT));
         System.out.println(toString(triangle));
+        stdin.close();
     }
 
     /**
