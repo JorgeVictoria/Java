@@ -18,6 +18,10 @@ public class CompareNumbers {
     public static final String N1_FIELD_NAME = "n1:";
     public static final String N2_FIELD_NAME = "n2:";
 
+    /**
+     * <p>Main Method</p>
+     * @param args external arguments
+     */
     public static void main(String[] args) {
         n1 = getIntegerValue(N1_FIELD_NAME);
         n2 = getIntegerValue(N2_FIELD_NAME);
