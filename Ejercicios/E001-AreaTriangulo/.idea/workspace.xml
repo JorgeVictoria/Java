@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d59d706-3eb1-4715-82a4-b8d3a9b5a01f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../002-Comparar/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../002-Comparar/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../002-Comparar/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../002-Comparar/.idea/sonarlint/issuestore/index.pb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../002-Comparar/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../002-Comparar/E002-Comparar.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../002-Comparar/out/production/002-Comparar/app/App.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../002-Comparar/src/app/App.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E002-Comparar/.idea/sonarlint/issuestore/4/3/43e99a1324a0ad23789dbc8f86398208ab2b73ea" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E002-Comparar/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/../E002-Comparar/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../E002-Comparar/src/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/../E002-Comparar/src/app/App.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +28,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/app" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../E002-Comparar" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -73,7 +66,7 @@
       <workItem from="1736533025974" duration="66000" />
       <workItem from="1736533227935" duration="37000" />
       <workItem from="1736533278005" duration="636000" />
-      <workItem from="1736536530948" duration="355000" />
+      <workItem from="1736536530948" duration="696000" />
     </task>
     <servers />
   </component>

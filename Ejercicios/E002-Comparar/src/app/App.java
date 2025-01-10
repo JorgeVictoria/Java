@@ -30,7 +30,7 @@ public class App {
         int valor = 0;
         boolean esValido = false;
         while(!esValido){
-            String entrada = JOptionPane.showInputDialog(texto);
+            String entrada = JOptionPane.showInputDialog(null,texto,COMPARAR,JOptionPane.QUESTION_MESSAGE);
             esValido=true;
             try{
                 if(entrada==null || entrada.isEmpty() || entrada.isBlank()){
@@ -65,9 +65,9 @@ public class App {
 
     private static void mostrarResultado(int n1, int n2, int resultado) {
         String mensaje = """
-                n1:          %d
-                n2:          %d
-                resultado:   %d
+                n1:              %d
+                n2:              %d
+                resultado: %d
                 """.formatted(n1, n2, resultado);
 
         JOptionPane.showMessageDialog(null, mensaje, COMPARAR, JOptionPane.INFORMATION_MESSAGE);
