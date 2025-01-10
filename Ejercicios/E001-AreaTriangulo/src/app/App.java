@@ -8,7 +8,8 @@ import javax.swing.*;
  */
 public class App {
 
-    private static final String AREA_TRIANGULO = "Area Triangulo";
+    private static final String TITULO = "Area Triángulo";
+    private static final String VALOR_INCORRECTO = "Debe introducir un valor numérico positivo.";
 
     public static void main(String[] args) {
 
@@ -27,23 +28,23 @@ public class App {
         double valor = 0.0;
         boolean esValido = false;
         while(!esValido){
-            String entrada = JOptionPane.showInputDialog(texto);
+            String entrada = JOptionPane.showInputDialog(null,texto,TITULO, JOptionPane.QUESTION_MESSAGE);
             esValido=true;
             try{
                 if(entrada==null || entrada.isEmpty() || entrada.isBlank()){
-                    throw new IllegalArgumentException("Debe introducir un valor numérico.");
+                    throw new IllegalArgumentException(VALOR_INCORRECTO);
                 }
                 valor = Double.parseDouble(entrada);
                 if(valor<=0){
-                    throw new IllegalArgumentException("Debe introducir un valor numérico positivo.");
+                    throw new IllegalArgumentException(VALOR_INCORRECTO);
                 }
             } catch (NumberFormatException ex){
                 esValido=false;
-                JOptionPane.showMessageDialog(null, "Debe introducir un valor numérico.",
-                        AREA_TRIANGULO, JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(null, VALOR_INCORRECTO,
+                        TITULO, JOptionPane.WARNING_MESSAGE);
             } catch (IllegalArgumentException ex){
                 esValido=false;
-                JOptionPane.showMessageDialog(null, ex.getMessage(), AREA_TRIANGULO, JOptionPane.WARNING_MESSAGE);
+                JOptionPane.showMessageDialog(null, ex.getMessage(), TITULO, JOptionPane.WARNING_MESSAGE);
             }
         }
         return valor;
@@ -60,7 +61,7 @@ public class App {
                 Area:   %.2f
                 """.formatted(base, altura, area);
 
-        JOptionPane.showMessageDialog(null, resultado, AREA_TRIANGULO, JOptionPane.INFORMATION_MESSAGE);
+        JOptionPane.showMessageDialog(null, resultado, TITULO, JOptionPane.INFORMATION_MESSAGE);
     }
 
 }
