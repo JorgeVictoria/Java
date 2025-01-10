@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d59d706-3eb1-4715-82a4-b8d3a9b5a01f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../002-Comparar/src/app/App.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/4/3/43e99a1324a0ad23789dbc8f86398208ab2b73ea" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/E001-AreaTriangulo.iml" beforeDir="false" afterPath="$PROJECT_DIR$/E001-AreaTriangulo.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +65,8 @@
       <option name="presentableId" value="Default" />
       <updated>1736533024603</updated>
       <workItem from="1736533025974" duration="66000" />
+      <workItem from="1736533227935" duration="37000" />
+      <workItem from="1736533278005" duration="635000" />
     </task>
     <servers />
   </component>
