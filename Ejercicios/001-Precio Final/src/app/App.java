@@ -98,12 +98,12 @@ public class App {
                         *********************************
                         RESULTADO FINAL
                         *********************************
-                        Coste Fabricación: %.2f
-                        Porcentaje Ganancia Vendedor: %d
-                        Margen Ganancia Vendedor: %.2f
-                        Impuesto Aplicable: %d
-                        Impuestos : %.2f
-                        Precio Final: %.2f
+                        Coste Fabricación: %.2f Euros
+                        Porcentaje Ganancia Vendedor: %d%%
+                        Margen Ganancia Vendedor: %.2f Euros
+                        Impuesto Aplicable: %d%%
+                        Impuestos : %.2f Euros
+                        Precio Final: %.2f Euros
                         Tipo de Producto: %s
                         %n""", costeFabricacion,PORCENTAJE_GANANCIA_VENDEDOR,margenGananciaVendedor,IMPUESTO_APLICABLE,
         impuestos,precioFinal,tipoProducto);
