@@ -1,8 +1,3 @@
-/*
-Read the base and height of a triangle and display the area:
-area = base x height / 2
- */
-
 package app;
 
 import java.util.Scanner;
@@ -21,11 +16,18 @@ public class App {
         double area = getArea(base, height);
 
         //Print the result
-        System.out.println(getResult(base, height, area));
+        printResult(base, height, area);
+
+        // Close resource to prevent resource leak
+        STDIN.close();
 
     }
 
-    //Method for obtaining the value of each side of the triangle.
+    /**
+     * Reads a positive double from console input.
+     * Keeps prompting until valid input is provided.
+     * Uses nextLine() + parseDouble() to avoid Scanner buffer issues.
+     */
     private static double getValue(String field) {
         while(true){
             try{
@@ -41,14 +43,12 @@ public class App {
         }
     }
 
-    //Method to calculate the area of a triangle
     private static double getArea(double base, double height) {
         return base * height / 2;
     }
 
-    //Method to print the final result
-    private static String getResult(double base, double height, double area) {
-        return String.format("""
+    private static void printResult(double base, double height, double area) {
+        System.out.printf("""
             === RESULT ===
             Base   : %.2f
             Height : %.2f

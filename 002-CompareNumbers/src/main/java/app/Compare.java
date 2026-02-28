@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class Compare {
 
+    // Single Scanner instance reused to avoid multiple input streams
     private final static Scanner SCANNER = new Scanner(System.in);
 
     public static void main(String[] args) {
@@ -13,11 +14,18 @@ public class Compare {
         int n2 = getValue("n2");
 
         //print result
-        System.out.println(printResult(n1, n2));
+        printResult(n1, n2);
+
+        // Close resource to prevent resource leak
+        SCANNER.close();
 
     }
 
-    //Method for obtaining the values of the numbers
+    /**
+     * Reads a positive integer from console input.
+     * Keeps prompting until valid input is provided.
+     * Uses nextLine() + parseInt() to avoid Scanner buffer issues.
+     */
     private static int getValue(String field) {
         while (true) {
             try {
@@ -33,9 +41,8 @@ public class Compare {
         }
     }
 
-    //Method for print the result
-    private static String printResult(int n1, int n2) {
-        return String.format("""
+    private static void printResult(int n1, int n2) {
+        System.out.printf("""
             === RESULT ===
             n1      : %d
             n2      : %d
@@ -43,13 +50,7 @@ public class Compare {
             """, n1, n2, getResult(n1,n2));
     }
 
-    //Method to compare two numbers
     private static int getResult(int n1, int n2) {
-        if(n1 > n2) {
-            return 1;
-        } else if (n1 < n2) {
-            return 2;
-        }
-        return 0;
+        return n1 > n2 ? 1 : n1 < n2 ? 2 : 0;
     }
 }
