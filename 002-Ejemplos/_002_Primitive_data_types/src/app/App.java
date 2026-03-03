@@ -95,17 +95,25 @@ public class App {
 
 
         // ===============================
-        // 7. char
+        // 7. char (multiple declaration ways)
         // ===============================
-        char exampleChar = 'A';
+
+        char directChar = 'A';           // Direct character
+        char unicodeChar = '\u0041';     // Unicode representation
+        char decimalChar = 65;           // Decimal Unicode value
+        char newlineChar = '\n';         // Escape sequence
 
         System.out.println("Type: char");
         System.out.println("Bits: 16");
         System.out.println("Bytes: 2");
         System.out.println("Minimum value (Unicode): " + (int) Character.MIN_VALUE);
         System.out.println("Maximum value (Unicode): " + (int) Character.MAX_VALUE);
-        System.out.println("Example declaration: char exampleChar = 'A';");
+        System.out.println("Direct declaration: char directChar = 'A'; -> " + directChar);
+        System.out.println("Unicode declaration: char unicodeChar = '\\u0041'; -> " + unicodeChar);
+        System.out.println("Decimal declaration: char decimalChar = 65; -> " + decimalChar);
+        System.out.println("Escape sequence example (newline): '\\n'");
         System.out.println("----------------------------------");
+        
 
 
         // ===============================
